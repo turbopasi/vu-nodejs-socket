@@ -1,0 +1,11 @@
+{
+  "Name": "vu-nodejs-socket",
+  "Description": "realtime player position",
+  "Version": "0.0.1",
+  "HasVeniceEXT": true,
+  "HasWebUI": false,
+  "Authors": [ "turbopasi" ],
+  "Dependencies": {
+    "veniceext": "^1.0.0"
+  }
+}
