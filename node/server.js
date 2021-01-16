@@ -10,7 +10,7 @@ server.on('connection', (socket) => {
 
   socket.on('data', (data) => {
 
-    // turn buffer into string and parse as JSON
+    // turn buffer into string and log to console
     console.log(`${data}`);
 
   });
