@@ -2,6 +2,7 @@ local counter = 0
 
 Events:Subscribe('UI:DrawHud', function(data)
 
+  -- primitive controller throttle 
   if counter < 10 then
     counter = counter + 1
     return
